@@ -1,9 +1,18 @@
 {
+  "cache_time": 7200,
   "api_site": {
-    "site1": { "key": "site1", "api": "https://example.com", "name": "示例站点" },
-    "site2": { "key": "site2", "api": "https://example2.com", "name": "示例站点2" }
+    "dyttzy": {
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+      "name": "电影天堂资源",
+      "detail": "http://caiji.dyttzyapi.com"
+    }
+    // ...更多站点
   },
   "custom_category": [
-    { "name": "热门电影", "type": "movie", "query": "热门" }
+    {
+      "name": "华语",
+      "type": "movie",
+      "query": "华语"
+    }
   ]
 }
