@@ -1,4 +1,9 @@
 {
-  "apiBaseUrl": "https://api.example.com",
-  "someSetting": "value"
+  "api_site": {
+    "site1": { "key": "site1", "api": "https://example.com", "name": "示例站点" },
+    "site2": { "key": "site2", "api": "https://example2.com", "name": "示例站点2" }
+  },
+  "custom_category": [
+    { "name": "热门电影", "type": "movie", "query": "热门" }
+  ]
 }
